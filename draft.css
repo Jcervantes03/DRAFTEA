@@ -8,16 +8,17 @@ body {
 
 .container {
   width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 h1 {
+  text-align: center;
   font-size: 24px;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 form {
@@ -85,21 +86,3 @@ button {
     font-size: 16px;
   }
 }
-
-.header {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-.logo-container {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-.logo-container img {
-  width: 100px;
-  height: auto;
-}
-
