@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Balance Draftea</title>
+  <link rel="stylesheet" href="draft.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo-container">
+      <img src="LOGO.png" style="width: 150px; height: 20px;">
+    </div>
+    <h1>Balance Draftea</h1>
+  </div>
+  
+  <form id="financialForm">
+    <label for="depositInput">Retiro:</label>
+    <input type="number" id="depositInput">
+    <button type="button" onclick="addDeposit()">Enviar Retiro</button>
+  </form>
+
+  <form id="withdrawalForm">
+    <label for="withdrawalInput">Depósito:</label>
+    <input type="number" id="withdrawalInput">
+    <button type="button" onclick="addWithdrawal()">Enviar Deposito</button>
+  </form>
+
+  <h2>Resultados:</h2>
+  <p>Retiros: <span id="depositValue">$0</span></p>
+  <p>Depósitos: <span id="withdrawalValue">$0</span></p>
+  <p>Balance: <span id="balanceValue">$0</span></p>
+
+  <button type="button" onclick="clearBalance()">Borrar Historial</button>
+
+  <script src="draft.js"></script>
+</body>
+</html>
