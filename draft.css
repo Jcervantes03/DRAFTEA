@@ -120,10 +120,10 @@ button {
 .logo-container {
   position: absolute;
   top: 22px;
-  left: 175px; /* Ajusta el margen izquierdo */
+  left: 125px; /* Ajusta el margen izquierdo */
 }
 
 .logo-container img {
-  width: 169px; /* Ajusta el tamaño de la imagen */
+  width: 199px; /* Ajusta el tamaño de la imagen */
   height: auto;
 }
